@@ -1,8 +1,73 @@
 // all codes for the navbar (top)
 
-// searchbar
-.searchbar {
-    background-color: gray;
-    padding: 0.3rem;
-    float: right;
+// dropdown menu
+.menu {
+  background-color: $color-primary;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  opacity: 0.7;
+
+  button,
+  .home {
+    background: none;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 1.7rem;
+    cursor: pointer;
+  }
+
+  button:active,
+  .home:active {
+    background-color: $color-primary-dark;
+  }
+
+  button:focus,
+  .home:focus {
+    background-color: $color-primary-dark;
+  }
+}
+
+.menuItem {
+  position: relative;
+
+  ul {
+    position: absolute;
+    background: $color-primary-dark;
+    margin-top: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s ease;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+
+  li {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  li:hover {
+    background-color: $color-primary-light;
+  }
+
+  button:focus + ul {
+    opacity: 1;
+    pointer-events: all;
+  }
 }
