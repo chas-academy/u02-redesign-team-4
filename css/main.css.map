@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AUGA,AAAA,UAAU,CAAC;EACP,gBAAgB,EAAE,IAAI;EACtB,OAAO,EAAE,MAAM;EACf,KAAK,EAAE,KAAK;CACf",
     "sources": [
         "../scss/main.scss",
         "../scss/abstracts/_functions.scss",
@@ -10,6 +10,9 @@
         "../scss/base/_base.scss",
         "../scss/base/_typography.scss",
         "../scss/base/_utilities.scss",
+        "../scss/layout/_footer.scss",
+        "../scss/layout/_header.scss",
+        "../scss/layout/_navbar.scss",
         "../scss/pages/_home.scss"
     ],
     "names": [],
