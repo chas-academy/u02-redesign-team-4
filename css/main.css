@@ -16,32 +16,20 @@ header {
 }
 
 header .header_box {
-  background-color: #fff;
-  padding: 1.5rem;
+  width: 50rem;
   text-align: center;
-  border-radius: 3px;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  padding: 1.5 rem;
+  border-radius: 3 px;
 }
 
 .menu {
- header
-  background-color: #335f47;
+  background-color: #335f47cc;
   display: flex;
   justify-content: space-around;
   align-items: center;
-
-  background-color: #335f47cc;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   height: 13rem;
   width: 100%;
- main
   margin: auto;
 }
 
@@ -71,15 +59,7 @@ header .header_box {
 
 .menuItem ul {
   position: absolute;
- header
-  background: #274936;
-  margin-top: 1rem;
-  width: 20rem;
-
   background: #274936cc;
-  display: -webkit-box;
-  display: -ms-flexbox;
- main
   display: flex;
   justify-content: space-around;
   align-items: center;
