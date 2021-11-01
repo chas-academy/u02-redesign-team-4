@@ -1,15 +1,35 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
   font-size: 62.5%;
 }
 
+header {
+  height: 100vh;
+  background-image: url(../../img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+header .header_box {
+  background-color: #fff;
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.5);
+}
+
 .menu {
+ header
+  background-color: #335f47;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
   background-color: #335f47cc;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21,6 +41,7 @@ html {
           align-items: center;
   height: 13rem;
   width: 100%;
+ main
   margin: auto;
 }
 
@@ -50,23 +71,22 @@ html {
 
 .menuItem ul {
   position: absolute;
+ header
+  background: #274936;
+  margin-top: 1rem;
+  width: 20rem;
+
   background: #274936cc;
   display: -webkit-box;
   display: -ms-flexbox;
+ main
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
   list-style: none;
   opacity: 0;
   pointer-events: none;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 
@@ -80,15 +100,9 @@ html {
 .menuItem li {
   width: 100%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .menuItem li:hover {
@@ -99,4 +113,3 @@ html {
   opacity: 0.8;
   pointer-events: all;
 }
-/*# sourceMappingURL=main.css.map */

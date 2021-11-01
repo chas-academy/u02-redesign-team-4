@@ -1,1 +1,14 @@
-// all codes for the header
+header {
+  height: 100vh;
+  background-image: url(../../img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+
+  .header_box {
+    background-color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0), 0.5);
+  }
+}
