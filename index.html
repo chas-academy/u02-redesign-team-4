@@ -4,108 +4,121 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="css/main.css" />
     <title>Konstnärsnämnden</title>
   </head>
 
   <body>
     <header>
-      <nav class="menu">
-        <!--dropdown menu-->
-        <a href="#" class="home">
-          <img
-            src="img/logo.light.png"
-            alt="Konstnärsnämndens logga"
-            width="250"
-            height="130"
-          />
-        </a>
-        <div class="menuItem">
-          <button>Stipendier & Bidrag</button>
-          <ul>
-            <li><a href="#">Bild & Form</a></li>
-            <li><a href="#">Dans & Cirkus</a></li>
-            <li><a href="#">Film</a></li>
-            <li><a href="#">Teater</a></li>
-            <li><a href="#">Musik</a></li>
-            <li><a href="#">Kulturbryggan</a></li>
-            <li><a href="#">Ganneviksstipendiet</a></li>
-            <li><a href="#">Ansökningstider</a></li>
-            <li><a href="#">Ansökan/Blanketter</a></li>
-          </ul>
+      <section class="navbar">
+        <nav>
+          <a href="index.html">
+            <img
+              class="logo"
+              src="img/logo.light.png"
+              alt="Konstnärsnämndens logotyp"
+            />
+          </a>
+
+          <div class="dropdown">
+            <button class="dropbtn">Stipendier & Bidrag</button>
+            <div class="dropdown-content">
+              <ul>
+                <li><a href="#">Bild & Form</a></li>
+                <li><a href="#">Dans & Cirkus</a></li>
+                <li><a href="#">Film</a></li>
+                <li><a href="#">Teater</a></li>
+                <li><a href="#">Musik</a></li>
+                <li><a href="#">Kulturbryggan</a></li>
+                <li><a href="#">Ganneviksstipendiet</a></li>
+                <li><a href="#">Ansökningstider</a></li>
+                <li><a href="#">Ansökan / Blanketter</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn">Utbildningar</button>
+            <div class="dropdown-content">
+              <ul>
+                <li><a href="#">IASPIS</a></li>
+                <li><a href="#">Internationella programmet för dans</a></li>
+                <li><a href="#">Internationella programmet för musik</a></li>
+                <li><a href="#">Redovisningar</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn">Ekonomiska & Sociala villkor</button>
+            <div class="dropdown-content">
+              <ul>
+                <li><a href="#">Analys och utredning</a></li>
+                <li><a href="#">Konstnärsguiden</a></li>
+                <li><a href="#">Motverka hot och hat - en vägledning</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn">Konstnärsnämnden</button>
+            <div class="dropdown-content">
+              <ul>
+                <li><a href="#">Om Konstnärsnämnden</a></li>
+                <li><a href="#">Nyheter</a></li>
+                <li><a href="#">Regeringsuppdrag</a></li>
+                <li><a href="#">Internationellt</a></li>
+                <li><a href="#">Jämställdhet</a></li>
+                <li><a href="#">Kalendarium</a></li>
+                <li><a href="#">Publikationer</a></li>
+                <li><a href="#">Kalendarium</a></li>
+                <li><a href="#">Publikationer</a></li>
+                <li><a href="#">Vanliga Frågor</a></li>
+                <li><a href="pages/kontakt.html">Kontakt</a></li>
+                <li><a href="#">Länkar</a></li>
+                <li><a href="#">Logotyper</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="search-container">
+          <form action="#">
+            <input type="text" placeholder="Sök.." name="search" />
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
         </div>
-        <div class="menuItem">
-          <button>Utbildningar</button>
-          <ul>
-            <li><a href="#">IASPIS</a></li>
-            <li><a href="#">Internationella programmet för dans</a></li>
-            <li><a href="#">Internationella programmet för musik</a></li>
-            <li><a href="#">Redovisningar</a></li>
-          </ul>
-        </div>
-        <div class="menuItem">
-          <button>Konstnärers ekonomiska & Sociala villkor</button>
-          <ul>
-            <li><a href="#">Analys och utredning</a></li>
-            <li><a href="#">Konstnärsguiden</a></li>
-            <li><a href="#">Motverka hot och hat - en vägledning</a></li>
-            <li><a href="#"></a></li>
-          </ul>
-        </div>
-        <div class="menuItem">
-          <button>Konstnärsnämnden</button>
-          <ul>
-            <li><a href="pages/about.html">Om Konstnärsnämnden</a></li>
-            <li><a href="pages/nyheter.html">Nyheter</a></li>
-            <li><a href="pages/regeringsuppdrag.html">Regeringsuppdrag</a></li>
-            <li><a href="pages/internationellt.html">Internationellt</a></li>
-            <li><a href="pages/jamstalldhet.html">Jämställdhet</a></li>
-            <li><a href="pages/kalendarium.html">Kalendarium</a></li>
-            <li><a href="pages/publikationer.html">Publikationer</a></li>
-            <li><a href="pages/faq.html">Vanliga frågor</a></li>
-            <li><a href="pages/kontakt.html">Kontakt</a></li>
-            <li><a href="pages/lankar.html">Länkar</a></li>
-            <li><a href="pages/logotyper.html">Logotyper</a></li>
-          </ul>
-        </div>
-        <!--searchbar-->
-        <div class="searchbar">
-          <input type="text" placeholder="Sök.." />
-          <a href="#"><img src="/img/search.png" alt="search icon" /></a>
-        </div>
-      </nav>
+      </section>
 
       <div class="header_box">
         <h1>Välkommen till Konstnärsnämnden</h1>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum
-          dolorem ipsum earum nulla expedita ea.
+          En statlig myndighet som främjar konstnärlig utveckling samt intresse
+          bevakar konstnärernas ekonomsika och sociala situation.
         </p>
-        <a href="#" class="btn btn--green">Ansök här</a>
+        <a href="#">Ansök här</a>
       </div>
     </header>
-    <main>
+    <main></main>
 
-    </main>
     <footer>
       <div class="footerIcons">
         <a href="index.html">
-          <img 
-            src="img/logo.light.png" 
+          <img
+            src="img/logo.light.png"
             alt="konstnärsnämndens logga"
-            width="280">
+            width="280"
+          />
         </a>
         <a href="#">
-          <img
-            src="img/faceboog.png"
-            alt="Facebook"
-            width="50">
+          <img src="img/faceboog.png" alt="Facebook" width="50" />
         </a>
         <a>
-          <img
-            src="img/instagram.png"
-            alt="Instagram"
-            width="50">
+          <img src="img/instagram.png" alt="Instagram" width="50" />
         </a>
       </div>
       <div class="footerLinks">
@@ -114,7 +127,11 @@
           <li>Maria skolgata 83, 2tr</li>
           <li>118 53 Stockholm</li>
           <li><a href="tel: 0850655000">Tel: 08-506 550 00</a></li>
-          <li><a href = "mailto: info@konstnarsnamnden.se">info@konstnarsnamnden.se</a></li>
+          <li>
+            <a href="mailto: info@konstnarsnamnden.se"
+              >info@konstnarsnamnden.se</a
+            >
+          </li>
         </ul>
         <ul>
           <li><a href="#">Link 1</a></li>
@@ -127,11 +144,6 @@
           <li><a href="#">Link 3</a></li>
         </ul>
       </div>
-
-
-
-      
     </footer>
-    
   </body>
 </html>
