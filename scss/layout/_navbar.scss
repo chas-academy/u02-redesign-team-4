@@ -39,6 +39,10 @@
     z-index: 10;
   }
 
+  .dropdown-content ul {
+    list-style-type: none;
+  }
+
   // Links inside the dropdown
   .dropdown-content a {
     font-size: 1.6rem;
