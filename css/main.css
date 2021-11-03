@@ -164,6 +164,10 @@ header .header_box {
   z-index: 10;
 }
 
+.navbar .dropdown-content ul {
+  list-style-type: none;
+}
+
 .navbar .dropdown-content a {
   font-size: 1.6rem;
   color: #fff;
