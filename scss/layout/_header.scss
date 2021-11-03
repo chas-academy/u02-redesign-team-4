@@ -1,14 +1,19 @@
 header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 100vh;
-  background-image: url(../../img/hero.jpg);
+  background-image: url(../img/hero.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: top;
 
   .header_box {
-    width: 50rem;
-    text-align: center;
+    align-self: center;
+    padding: 2rem;
+    margin-bottom: 10rem;
     background-color: #fff;
-    padding: 1.5 rem;
-    border-radius: 3 px;
+    opacity: 0.9;
+    max-width: 50rem;
+    text-align: center;
   }
 }
