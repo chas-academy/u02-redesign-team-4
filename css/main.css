@@ -67,6 +67,7 @@ footer .footerLinks ul a, footer .footerLinks ul li {
   color: white;
   font-size: 2rem;
   text-decoration: none;
+  margin-bottom: 0.3em;
 }
 
 header {
