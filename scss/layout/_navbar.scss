@@ -46,7 +46,7 @@
     pointer-events: none;
     transition: all 0.4s ease;
   }
-
+  
   a {
     color: white;
     text-decoration: none;
@@ -65,9 +65,11 @@
   li:hover {
     background-color: $color-primary-light;
   }
+  
 
   button:focus + ul {
     opacity: 0.8;
     pointer-events: all;
   }
 }
+
