@@ -79,7 +79,34 @@ body p {
 }
 
 .search-container {
-  padding: 1.6rem;
+  padding: 1.6rem 0;
+  margin-right: 5rem;
+}
+
+.search {
+  flex: 0 0 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search__input {
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+  border: none;
+  padding: 0.7rem 2rem;
+  border-radius: 10rem;
+  width: 40rem;
+  margin-right: -3.25rem;
+}
+
+.search__input:focus {
+  outline: none;
+}
+
+.search__icon {
+  height: 2rem;
+  width: 2rem;
 }
 
 footer {
