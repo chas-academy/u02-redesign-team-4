@@ -16,11 +16,10 @@
   }
 
   .news_article {
-    width: 33.3333%;
+    flex: 1;
 
     p {
       background-color: $color-white;
-      font-size: $default-font-size;
       opacity: 0.9;
     }
 

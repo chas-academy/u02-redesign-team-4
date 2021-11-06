@@ -243,12 +243,11 @@ header .header_box {
 }
 
 .news .news_article {
-  width: 33.3333%;
+  flex: 1;
 }
 
 .news .news_article p {
   background-color: #fff;
-  font-size: 1.6rem;
   opacity: 0.9;
 }
 
