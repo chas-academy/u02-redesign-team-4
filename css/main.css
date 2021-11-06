@@ -10,6 +10,11 @@ html {
   font-size: 62.5%;
 }
 
+.row {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -21,8 +26,29 @@ body h1 {
   font-size: 3rem;
 }
 
+body h2 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+
 body p {
-  font-size: 2rem;
+  font-size: 1.6rem;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem;
+}
+
+.u-margin-bottom-large {
+  margin-bottom: 8rem;
+}
+
+.u-center-text {
+  text-align: center;
 }
 
 .search-container {
@@ -256,3 +282,8 @@ h2 {
   margin: 1rem;
 }
 /*# sourceMappingURL=main.css.map */
+=======
+.about-us {
+  padding: 10rem 0;
+}
+
