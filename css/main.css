@@ -80,8 +80,19 @@ body p {
 }
 
 .search-container {
+  display: flex;
   padding: 1.6rem 0;
   margin-right: 5rem;
+}
+
+.search-container a {
+  align-self: center;
+}
+
+.search-container img {
+  border: 1px solid #000;
+  width: 4rem;
+  margin-left: 5rem;
 }
 
 .search {

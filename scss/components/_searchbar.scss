@@ -1,6 +1,17 @@
 .search-container {
+  display: flex;
   padding: 1.6rem 0;
   margin-right: 5rem;
+
+  a {
+    align-self: center;
+  }
+
+  img {
+    border: 1px solid $color-black;
+    width: 4rem;
+    margin-left: 5rem;
+  }
 }
 
 .search {
