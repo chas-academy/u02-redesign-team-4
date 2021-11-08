@@ -102,8 +102,8 @@ body p {
 }
 
 .apply-btn:active {
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
 }
 
 .search-container {
