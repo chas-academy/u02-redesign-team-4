@@ -49,3 +49,22 @@
     transform: translateY(0);
   }
 }
+
+.apply-btn {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: $color-white;
+  background-color: $color-primary;
+  padding: 15px 20px;
+  border-radius: 25px;
+  transition: all 0.1s;
+
+  &:hover {
+    background-color: $color-primary-dark;
+  }
+
+  &:active {
+    transform: translateY(3px);
+  }
+}
