@@ -1,1 +1,29 @@
-// Only mixins
+// MEDIA QUERY
+//____________________
+//XXX-900
+//900-980:
+//980-1160:
+//1160px - NORMAL SCSS:
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == 848 {
+    @media (max-width: 53em) {
+      // 848px/16 = 53em
+      @content;
+    }
+  }
+
+  @if $breakpoint == 980 {
+    @media (max-width: 61.25em) {
+      // 980px/16 = 61.25em
+      @content;
+    }
+  }
+
+  @if $breakpoint == 1168 {
+    @media (max-width: 73em) {
+      // 1168px/16 = 73em
+      @content;
+    }
+  }
+}

@@ -1,16 +1,29 @@
 // ABOUT US SECTION
+section {
+  padding: 5rem 0;
+
+  @include respond(1168) {
+    padding: 5rem 3rem;
+  }
+}
 
 .about-us {
-  padding: 5rem 0;
   background-color: $color-grey-light;
 }
 
 // NEWS SECTION
 
 .news {
-  padding: 5rem 0;
-
+  display: flex;
   .news_article {
+    @include respond(980) {
+      &:not(:last-child) {
+        margin-bottom: 2rem;
+      }
+      margin-right: 2rem;
+    }
+
+    max-width: 50rem;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -51,11 +64,16 @@
 .feature {
   display: flex;
   flex-direction: column;
-
   background-color: $color-grey-light;
-  padding: 5rem 0;
 
   &__box {
+    @include respond(980) {
+      &:not(:last-child) {
+        margin-bottom: 3rem;
+      }
+    }
+
+    max-width: 50rem;
     display: flex;
     flex-direction: column;
     justify-content: center;

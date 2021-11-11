@@ -1,14 +1,18 @@
 // all codes for the footer
 
 .footer {
-  padding: 5rem 0;
+  padding: 0rem 5rem 5rem 5rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-wrap: wrap;
   font-size: $default-font-size;
   color: $color-white;
   background-color: $color-primary-dark;
 
   &__icons {
+    flex: 1;
+    align-self: center;
+    margin: 5rem 0;
     img {
       display: block;
       margin-bottom: 2rem;
@@ -38,6 +42,8 @@
   }
 
   &__adress {
+    margin: 5rem 0;
+    flex: 1;
     li {
       list-style: none;
 
@@ -50,11 +56,13 @@
 
   &__links-1,
   &__links-2 {
+    margin-top: 5rem;
+    flex: 1;
     li {
       list-style: none;
 
       a {
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.1rem;
       }
     }
   }
