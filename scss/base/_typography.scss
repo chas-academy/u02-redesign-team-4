@@ -10,6 +10,10 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     font-size: 3rem;
+
+    @include respond(560) {
+      font-size: 2rem;
+    }
   }
 
   h2 {
