@@ -56,9 +56,13 @@
   font-size: 1.8rem;
   color: $color-white;
   background-color: $color-primary;
-  padding: 15px 20px;
+  padding: 10px 30px;
   border-radius: 25px;
   transition: all 0.1s;
+
+  @include respond(560) {
+    font-size: 1.6rem;
+  }
 
   &:hover {
     background-color: $color-primary-dark;
