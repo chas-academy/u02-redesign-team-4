@@ -1,0 +1,17 @@
+.internationellt {
+  background-color: $color-grey-light;
+
+  #pages-heading {
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  p span {
+    display: block;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+}
