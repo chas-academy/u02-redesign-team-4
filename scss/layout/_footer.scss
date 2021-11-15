@@ -17,15 +17,17 @@
 
   &__icons {
     flex: 2;
-
+    text-align: center;
     margin: 5rem 0;
-    img {
-      display: block;
-      margin-bottom: 2rem;
 
-      @include respond(560) {
-        margin: 0 auto 5rem auto;
-      }
+    @include respond(560) {
+      margin: 0;
+    }
+
+    img {
+      width: 28rem;
+      display: block;
+      margin: 0 auto 2rem auto;
     }
 
     a {
@@ -54,6 +56,11 @@
   &__adress {
     margin: 5rem 0;
     flex: 1;
+
+    @include respond(560) {
+      margin: 3rem;
+    }
+
     li {
       list-style: none;
 
@@ -68,11 +75,18 @@
   &__links-2 {
     margin-top: 5rem;
     flex: 1;
+
+    @include respond(560) {
+      &:not(:first-child) {
+        margin-top: 1rem;
+      }
+    }
+
     li {
       list-style: none;
 
       a {
-        margin-bottom: 0.1rem;
+        margin-bottom: 0.8rem;
       }
     }
   }
