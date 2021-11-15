@@ -11,76 +11,79 @@
 
   <body>
     <header>
-      <section class="navbar">
+      <div class="navbar">
         <nav>
-          <a href="index.html">
-            <img
-              class="logo"
-              src="img/logo.light.png"
-              alt="Konstnärsnämndens logotyp"
-            />
-          </a>
-
-          <div class="dropdown">
-            <button class="dropbtn">Konstnärsnämnden</button>
-            <div class="dropdown-content">
-              <ul>
-                <li><a href="/pages/om_oss.html">Om Konstnärsnämnden</a></li>
-                <li>
-                  <a href="/pages/regeringsuppdrag.html">Regeringsuppdrag</a>
-                </li>
-                <li>
-                  <a href="/pages/internationellt.html">Internationellt</a>
-                </li>
-                <li><a href="/pages/jamstalldhet.html">Jämställdhet</a></li>
-                <li>
-                  <a href="/pages/stipendier.html">Stipendier & Bidrag</a>
-                </li>
-              </ul>
-            </div>
+          <div class="container">
+            <a href="index.html">
+              <img
+                class="logo"
+                src="img/logo.light.png"
+                alt="Konstnärsnämndens logotyp"
+              />
+            </a>
           </div>
-
-          <div class="dropdown">
-            <button class="dropbtn">Ekonomiska & Sociala villkor</button>
-            <div class="dropdown-content">
-              <ul>
-                <li><a href="pages/analys.html">Analys och utredning</a></li>
-                <li>
-                  <a href="pages/ekonomiska_sociala_villkor.html"
-                    >Konstnäreres Ekonomiska & sociala villkor</a
-                  >
-                </li>
-              </ul>
+          <div class="container-nav">
+            <div class="dropdown">
+              <button class="dropbtn">Konstnärsnämnden</button>
+              <div class="dropdown-content">
+                <ul>
+                  <li><a href="/pages/om_oss.html">Om Konstnärsnämnden</a></li>
+                  <li>
+                    <a href="/pages/regeringsuppdrag.html">Regeringsuppdrag</a>
+                  </li>
+                  <li>
+                    <a href="/pages/internationellt.html">Internationellt</a>
+                  </li>
+                  <li><a href="/pages/jamstalldhet.html">Jämställdhet</a></li>
+                  <li>
+                    <a href="/pages/stipendier.html">Stipendier & Bidrag</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
 
-          <div class="dropdown">
-            <button class="dropbtn">Projekt</button>
-            <div class="dropdown-content">
-              <ul>
-                <li><a href="#">IASPIS</a></li>
-                <!--dead link-->
-                <li>
-                  <a href="#">Program för dans</a>
+            <div class="dropdown">
+              <button class="dropbtn">Ekonomiska & Sociala villkor</button>
+              <div class="dropdown-content">
+                <ul>
+                  <li><a href="pages/analys.html">Analys och utredning</a></li>
+                  <li>
+                    <a href="pages/ekonomiska_sociala_villkor.html"
+                      >Konstnäreres Ekonomiska & sociala villkor</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <button class="dropbtn">Projekt</button>
+              <div class="dropdown-content">
+                <ul>
+                  <li><a href="#">IASPIS</a></li>
                   <!--dead link-->
-                </li>
-                <li>
-                  <a href="#">Program för musik</a>
-                  <!--dead link-->
-                </li>
-                <li>
-                  <a href="#">Kulturbryggan</a>
-                  <!--dead link-->
-                </li>
-                <li>
-                  <a href="#">Motverka hot och hat</a>
-                  <!--dead link-->
-                </li>
-                <li>
-                  <a href="#">Per Ganneviks stiftelse</a>
-                  <!--dead link-->
-                </li>
-              </ul>
+                  <li>
+                    <a href="#">Program för dans</a>
+                    <!--dead link-->
+                  </li>
+                  <li>
+                    <a href="#">Program för musik</a>
+                    <!--dead link-->
+                  </li>
+                  <li>
+                    <a href="#">Kulturbryggan</a>
+                    <!--dead link-->
+                  </li>
+                  <li>
+                    <a href="#">Motverka hot och hat</a>
+                    <!--dead link-->
+                  </li>
+                  <li>
+                    <a href="#">Per Ganneviks stiftelse</a>
+                    <!--dead link-->
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </nav>
@@ -94,20 +97,22 @@
               name="search"
             />
 
-            <i class="icofont-search-1"></i>
+            <a href=""><i class="icofont-search-1"></i></a>
           </form>
-          <a href="#"><img src="img/english.svg" alt="engelska flaggan" /></a>
+          <a class="english" href="#"
+            ><img src="img/english.svg" alt="engelska flaggan"
+          /></a>
         </div>
-      </section>
+      </div>
 
       <div class="header_box">
-        <h1>Välkommen till Konstnärsnämnden</h1>
+        <h1 class="u-margin-bottom-small">Välkommen till Konstnärsnämnden</h1>
         <p class="u-margin-bottom-small">
           Konstnärsnämnden stödjer professionella konstnärers arbete, utveckling
           och internationella kontakter och håller sig underrättad om
           konstnärernas ekonomiska och sociala villkor.
         </p>
-        <a class="btn-text" href="#">Läs mer om myndighetens uppdrag &rarr;</a>
+        <a class="btn-text" href="#">Läs om myndighetens uppdrag &rarr;</a>
         <p class="u-margin-bottom-top-small">
           P.g.a. covid-19 tar vi för närvarande inte emot externa besök.
         </p>
@@ -170,9 +175,11 @@
             <div class="feature__box">
               <i class="icofont-ui-calendar feature__box--icon"></i>
               <h3>Kalendarium</h3>
-              <a class="btn-text" href="#"
-                >IASPIS Kitchen Talk: Silvia Franceschini &rarr;</a
-              >
+              <p>
+                <a class="btn-text" href="#"
+                  >IASPIS Kitchen Talk: Silvia Franceschini &rarr;</a
+                >
+              </p>
               <p class="u-margin-bottom-top-small">
                 Datum: torsdag 11 november 2021 Tid: 17.00 Plats:
                 Konstnärsnämnden, IASPIS-köket Adress: Maria skolgata 83,
@@ -226,6 +233,59 @@
       </section>
     </main>
     <footer class="footer">
+      <div class="footer__links-1">
+        <ul>
+          <li><a class="btn-link" href="#">Konstnärsguiden</a></li>
+          <!--dead links-->
+          <li>
+            <a class="btn-link" href="/pages/nyheter.html">Nyheter</a>
+          </li>
+
+          <li>
+            <a class="btn-link" href="/pages/kalendarium.html">Kalendarium</a>
+          </li>
+          <li>
+            <a class="btn-link" href="#">Innehåll A-Ö</a>
+          </li>
+          <li>
+            <a class="btn-link" href="#">Vanliga frågor</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__links-2">
+        <ul>
+          <li>
+            <a class="btn-link" href="/pages/publikationer.html"
+              >Publikationer</a
+            >
+          </li>
+
+          <li>
+            <a class="btn-link" href="/pages/kontakt.html">Kontakt</a>
+          </li>
+
+          <li>
+            <a class="btn-link" href="/pages/lankar.html">Länkar</a>
+          </li>
+          <li>
+            <a class="btn-link" href="#">Anpassa sidan</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__adress">
+        <ul>
+          <li>Besöksadress:</li>
+          <li>Maria skolgata 83, 2tr</li>
+          <li>118 53 Stockholm</li>
+          <li><a href="tel: 0850655000">Tel: 08-506 550 00</a></li>
+          <li>
+            <a href="mailto: info@konstnarsnamnden.se"
+              >info@konstnarsnamnden.se</a
+            >
+          </li>
+        </ul>
+      </div>
       <div class="footer__icons">
         <a href="index.html">
           <img
@@ -243,45 +303,6 @@
         <a href="#">
           <i class="icofont-linkedin"></i>
         </a>
-      </div>
-      <div class="footer__adress">
-        <ul>
-          <li>Besöksadress:</li>
-          <li>Maria skolgata 83, 2tr</li>
-          <li>118 53 Stockholm</li>
-          <li><a href="tel: 0850655000">Tel: 08-506 550 00</a></li>
-          <li>
-            <a href="mailto: info@konstnarsnamnden.se"
-              >info@konstnarsnamnden.se</a
-            >
-          </li>
-        </ul>
-      </div>
-      <div class="footer__links-1">
-        <ul>
-          <li><a class="btn-link" href="#">Konstnärsguiden</a></li>
-          <!--dead links-->
-          <li><a class="btn-link" href="/pages/nyheter.html">Nyheter</a></li>
-
-          <li>
-            <a class="btn-link" href="/pages/kalendarium.html">Kalendarium</a>
-          </li>
-        </ul>
-      </div>
-      <div class="footer__links-2">
-        <ul>
-          <li>
-            <a class="btn-link" href="/pages/publikationer.html"
-              >Publikationer</a
-            >
-          </li>
-
-          <li><a class="btn-link" href="/pages/kontakt.html">Kontakt</a></li>
-
-          <li>
-            <a class="btn-link" href="/pages/lankar.html">Länkar</a>
-          </li>
-        </ul>
       </div>
     </footer>
   </body>
