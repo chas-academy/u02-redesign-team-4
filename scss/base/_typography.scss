@@ -5,6 +5,10 @@ body {
   font-weight: 400;
   line-height: 1.7;
 
+  @include respond(560) {
+    line-height: 2;
+  }
+
   h1 {
     color: $color-primary-dark;
     font-weight: 700;

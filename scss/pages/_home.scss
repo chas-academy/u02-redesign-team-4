@@ -9,6 +9,13 @@ section {
 
 .about-us {
   background-color: $color-grey-light;
+  letter-spacing: 0.1rem;
+  text-align: center;
+
+  @include respond(1168) {
+    text-align: start;
+    letter-spacing: 0;
+  }
 }
 
 // NEWS SECTION
