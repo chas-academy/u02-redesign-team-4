@@ -3,19 +3,31 @@
 .footer {
   padding: 0rem 5rem 5rem 5rem;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
   font-size: $default-font-size;
   color: $color-white;
   background-color: $color-primary-dark;
 
+  @include respond(560) {
+    flex-direction: column;
+    text-align: center;
+  }
+
   &__icons {
-    flex: 1;
-    align-self: center;
+    flex: 2;
+    text-align: center;
     margin: 5rem 0;
+
+    @include respond(560) {
+      margin: 0;
+    }
+
     img {
+      width: 28rem;
       display: block;
-      margin-bottom: 2rem;
+      margin: 0 auto 2rem auto;
     }
 
     a {
@@ -44,6 +56,11 @@
   &__adress {
     margin: 5rem 0;
     flex: 1;
+
+    @include respond(560) {
+      margin: 3rem;
+    }
+
     li {
       list-style: none;
 
@@ -58,11 +75,18 @@
   &__links-2 {
     margin-top: 5rem;
     flex: 1;
+
+    @include respond(560) {
+      &:not(:first-child) {
+        margin-top: 1rem;
+      }
+    }
+
     li {
       list-style: none;
 
       a {
-        margin-bottom: 0.1rem;
+        margin-bottom: 0.8rem;
       }
     }
   }
