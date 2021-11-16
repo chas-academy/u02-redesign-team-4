@@ -6,9 +6,9 @@
 //1160px - NORMAL SCSS:
 
 @mixin respond($breakpoint) {
-  @if $breakpoint == 848 {
-    @media (max-width: 53em) {
-      // 848px/16 = 53em
+  @if $breakpoint == 560 {
+    @media (max-width: 35em) {
+      // 560px/16 = 35em
       @content;
     }
   }
