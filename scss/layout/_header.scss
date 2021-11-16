@@ -7,6 +7,10 @@ header {
   background-size: cover;
   background-position: top;
 
+  .logo {
+    width: 28rem;
+  }
+
   @include respond(560) {
     height: 100%;
   }
