@@ -1,46 +1,42 @@
 kontakt {
-    background-color: #f8f8f8;
-  }
-  form{
-    font-size: 16px;
-    width: 70%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-  textarea{
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 14px;
-  }
-  .kontakt ul {
-    list-style-type: none;
-  }
-  .kontakt ul li{
-    font-size: 16px;
-    text-decoration: none;
-  }
-  .kontakt .bold{
-   font-size: 17px;
-   font-weight: 700;
-   margin-bottom: 4rem;
-  }
-  .transport{
-    margin-left: 4%;
-    list-style-type: square;
-  
-  }
-  input,
-    textarea {
-    width: 100%;
-    padding: 5px;
-    outline: none;
-  }
-  label {
-    line-height: 1.9rem;
-  }
-  .center-btn{
-    margin: 0 auto;
-  }
-  
-  
-  
+  background-color: #f8f8f8;
+}
+form {
+  font-size: 16px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.kontakt ul {
+  list-style-type: none;
+}
+.kontakt ul li {
+  font-size: 16px;
+  text-decoration: none;
+}
+.kontakt .bold {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 4rem;
+}
+.transport {
+  margin-left: 4%;
+  list-style-type: square;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 5px;
+  outline: none;
+}
+label {
+  line-height: 1.9rem;
+}
+.center-btn {
+  margin: 0 auto;
+}
