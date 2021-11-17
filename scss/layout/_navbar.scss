@@ -67,18 +67,21 @@
     display: block;
   }
 
-  // Change color of dropdown links on hover
-  .dropdown-content a:hover {
+  // Change color of dropdown links on hover and focus
+  .dropdown-content a:hover,
+  .dropdown-content a:focus-within {
     background-color: $color-primary;
   }
 
-  // Show the dropdown menu on hover
-  .dropdown:hover .dropdown-content {
+  // Show the dropdown menu on hover and focus
+  .dropdown:hover .dropdown-content,
+  .dropdown:focus-within .dropdown-content {
     display: block;
   }
 
   // Change the background color of the dropdown button when the dropdown content is shown
-  .dropdown:hover .dropbtn {
+  .dropdown:hover .dropbtn,
+  .dropdown:focus-within .dropbtn {
     background-color: $color-primary;
   }
 }
