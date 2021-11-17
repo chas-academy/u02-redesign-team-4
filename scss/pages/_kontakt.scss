@@ -1,42 +1,52 @@
-kontakt {
-  background-color: #f8f8f8;
-}
-form {
-  font-size: 16px;
-  width: 70%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-textarea {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-}
-.kontakt ul {
-  list-style-type: none;
-}
-.kontakt ul li {
-  font-size: 16px;
-  text-decoration: none;
-}
-.kontakt .bold {
-  font-size: 17px;
-  font-weight: 700;
-  margin-bottom: 4rem;
-}
-.transport {
-  margin-left: 4%;
-  list-style-type: square;
-}
-input,
-textarea {
-  width: 100%;
-  padding: 5px;
-  outline: none;
-}
-label {
-  line-height: 1.9rem;
-}
-.center-btn {
-  margin: 0 auto;
+.kontakt {
+  background-color: $color-grey-light;
+
+  form {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  ul {
+    font-size: $default-font-size;
+    list-style-type: none;
+  }
+
+  .bold {
+    font-weight: 700;
+    margin-bottom: 4rem;
+  }
+
+  .transport {
+    margin-left: 3rem;
+    list-style-type: square;
+  }
+
+  input,
+  textarea {
+    border: none;
+    font-family: "Lato", sans-serif;
+    font-size: $default-font-size;
+    background-color: $color-primary;
+    color: $color-white;
+    width: 100%;
+    padding: 0.5rem;
+    outline: none;
+    margin-top: 0.5rem;
+  }
+
+  ::placeholder {
+    color: $color-white;
+  }
+
+  label {
+    font-family: "Lato", sans-serif;
+    font-size: $default-font-size;
+    line-height: 1.9rem;
+  }
+
+  .center-btn {
+    margin: 0 auto;
+  }
 }
