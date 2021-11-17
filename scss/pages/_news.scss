@@ -1,20 +1,18 @@
-
 .newspage_box {
-    max-width: 80rem;
-    margin: 2rem 5rem;
-    flex: 1;
-    background-color: rgba($color-white, 0.9);
-    padding: 2rem;
-    border-radius: 3px;
-    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
-    transition: transform 0.4s;
-    
+  max-width: 80rem;
+  margin: 2rem 5rem;
+  flex: 1;
+  background-color: rgba($color-white, 0.9);
+  padding: 2rem;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+  transition: transform 0.4s;
 
-    &:hover {
-        transform: translateY(-1.5rem);
-      }
+  &:hover {
+    transform: translateY(-1.5rem);
+  }
 }
 
 .other-date {
-    color: $color-primary;
+  color: $color-primary;
 }
