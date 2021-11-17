@@ -1,6 +1,6 @@
 .newspage_box {
   max-width: 80rem;
-  margin: 2rem 5rem;
+  margin: 2rem;
   flex: 1;
   background-color: rgba($color-white, 0.9);
   padding: 2rem;
@@ -8,11 +8,17 @@
   box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
   transition: transform 0.4s;
 
+
   &:hover {
     transform: translateY(-1.5rem);
+  }
+
+  h3 {
+    font-size: 1.8rem;
   }
 }
 
 .other-date {
   color: $color-primary;
 }
+
