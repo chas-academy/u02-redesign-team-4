@@ -1,10 +1,6 @@
-// Only import scss here
-
-@import "abstracts/functions";
 @import "abstracts/mixins";
 @import "abstracts/variables";
 
-@import "base/animations";
 @import "base/base";
 @import "base/typography";
 @import "base/utilities";
@@ -18,14 +14,11 @@
 @import "layout/flexbox";
 
 @import "pages/home";
-
 @import "pages/publikationer";
-
 @import "pages/regeringsuppdrag";
 @import "pages/analys";
 @import "pages/jamstalldhet";
 @import "pages/news";
-
 @import "pages/lankar";
 @import "pages/kontakt";
 @import "pages/kalendarium";

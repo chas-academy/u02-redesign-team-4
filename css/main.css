@@ -377,6 +377,10 @@ header .header_box .box-border {
     flex-direction: column;
     align-items: start;
   }
+  .navbar .logo-a {
+    width: 28rem;
+    height: auto;
+  }
 }
 
 .navbar .container-nav {

@@ -11,6 +11,11 @@
   @include respond(980) {
     flex-direction: column;
     align-items: start;
+
+    .logo-a {
+      width: 28rem;
+      height: auto;
+    }
   }
 
   .container-nav {
