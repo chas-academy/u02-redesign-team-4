@@ -9,6 +9,7 @@ header {
 
   .logo {
     width: 28rem;
+    height: 20rem;
   }
 
   @include respond(560) {
