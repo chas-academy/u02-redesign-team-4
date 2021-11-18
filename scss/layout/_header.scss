@@ -34,9 +34,25 @@ header {
     max-width: 50rem;
     text-align: center;
 
+    .box-border {
+      color: $color-primary;
+      margin-bottom: 1.5rem;
+      padding: 0.5rem;
+      border-top: dotted 2px;
+      border-bottom: dotted 2px;
+      display: flex;
+      justify-content: space-around;
+    }
+
     @include respond(560) {
       padding: 1.5rem;
       margin: 5rem 1rem;
+
+      .bullet {
+        font-size: 80%;
+        margin: 0.3rem;
+        align-self: center;
+      }
     }
   }
 }
